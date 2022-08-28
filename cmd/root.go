@@ -74,7 +74,7 @@ func readCsv(sem *semaphore.Weighted, src []byte, skipHeader int, action func(nu
 
 	i := 0
 	for {
-		j := i
+		j := i + skipHeader
 		record, err := r.Read()
 		i++
 		if err == io.EOF {

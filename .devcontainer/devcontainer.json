@@ -30,7 +30,8 @@
 			"extensions": [
 				"golang.Go",
 				"GitHub.copilot",
-				"janisdd.vscode-edit-csv"
+				"janisdd.vscode-edit-csv",
+				"yzhang.markdown-all-in-one"
 			]
 		}
 	},
